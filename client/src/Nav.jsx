@@ -1,12 +1,5 @@
 import React, { useState } from 'react';
-import { AppBar, Button, Box, Container, CssBaseline, Toolbar } from '@mui/material';
-import { ThemeProvider, createTheme } from '@mui/material/styles';
-
-const darkTheme = createTheme({
-  palette: {
-    mode: 'dark'
-  }
-});
+import { AppBar, Button, Box, Container, Toolbar } from '@mui/material';
 
 export default () => {
   const [anchorElNav, setAnchorElNav] = useState(null);
@@ -27,8 +20,7 @@ export default () => {
 
   return (
     // From App bar with responsive menu
-    <ThemeProvider  theme={darkTheme}>
-      <CssBaseline />
+    <nav>
       <AppBar position="static">
         <Container> {/* maxWidth="xl" */}
           <Toolbar disableGutters>
@@ -47,6 +39,6 @@ export default () => {
           </Toolbar>
         </Container>
       </AppBar>
-    </ThemeProvider>
+    </nav>
   );
 }
