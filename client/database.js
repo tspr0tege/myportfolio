@@ -2,9 +2,9 @@ export const experiences = [
   {
     title: 'Independent Developer',
     company: 'Leonhart Tech',
-    time_period: '06/ 2021 - present',
+    status: '06/2021 - present',
     tech_used: [],
-    description: 'Worked on a geolocation project with a startup, using serverless architecture via Netlify. My role was ultimately equivalent to tech lead, as the client deferred many decisions to me. Personally wrote their pathfinding algorithm to prioritize most proximal direction, and confirm no other shorter routes existed.\n\nThe other major project was a video aggregator website, using Wix. This involved learning the Wix editor, as well as their proprietary jQuery library and noSQL database to populate the information and website elements, as not everything the client requested was something the webpage naturally wanted to do.',
+    description: 'I worked on a geolocation project with a startup, using serverless architecture via Netlify. My role was ultimately equivalent to tech lead, as the client deferred many decisions to me. Personally wrote their pathfinding algorithm to prioritize most proximal direction, and confirm no other shorter routes existed.\n\nThe other major project was a video aggregator website, using Wix. This involved learning the Wix editor, as well as their proprietary jQuery library and noSQL database to populate the information and website elements, as not everything the client requested was something the webpage naturally wanted to do.',
     highlight: 'My client feedback record. I work hard to make sure I\’m giving way more than I\’m getting, and people seem to appreciate that.'
   }
 ];
@@ -20,8 +20,8 @@ export const educations = [
 export const projects = [
   {
     title: 'Project Catwalk',
-    type: 'Learning Project',
-    completed: '03/2021',
+    type: 'Edcuational Project',
+    status: 'Completed: 03/2021',
     links: [
       {
         name: 'GitHub Repository', 

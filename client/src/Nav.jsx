@@ -21,7 +21,7 @@ export default () => {
   return (
     // From App bar with responsive menu
     <nav>
-      <AppBar position="static">
+      <AppBar position="fixed">
         <Container> {/* maxWidth="xl" */}
           <Toolbar disableGutters>
             <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
