@@ -22,7 +22,7 @@ export default () => {
     // From App bar with responsive menu
     <nav>
       <AppBar position="fixed">
-        <Container> {/* maxWidth="xl" */}
+        <Container maxWidth="xl">
           <Toolbar disableGutters>
             <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
               {pages.map((page) => (

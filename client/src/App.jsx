@@ -33,7 +33,7 @@ export default () => {
     <ThemeProvider  theme={darkTheme}>
       <CssBaseline />
       <Nav />
-      <Box sx={{ width: '100%', top: '70px', bgcolor: 'background.default' }} position="fixed">
+      <Box sx={{ width: '100%', top: '69px', bgcolor: 'background.default', zIndex: 1 }} position="fixed">
         <Tabs value={value} onChange={handleChange} aria-label="nav tabs example">
           <LinkTab label="Projects" href="#project-list" />
           <LinkTab label="Technical Experience" href="#experience-list" />
