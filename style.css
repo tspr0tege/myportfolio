@@ -15,7 +15,7 @@ pre {
 }
 
 /* Project List */
-#project-list ul {
+.portfolio-list ul {
   list-style: none;
   display: flex;
   gap: 1rem;
