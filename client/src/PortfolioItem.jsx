@@ -56,7 +56,7 @@ const LinksBox = ({ links }) => (
 
 const TechList = ({ list }) => (
   <>
-    <p>Tech Used:</p>
+    <p className="mt1">Tech Used:</p>
     <ul>
       {list.map((tech, index) => {
         return (        
