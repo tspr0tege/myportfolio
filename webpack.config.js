@@ -1,5 +1,5 @@
 const path = require('path');
-const BUILD_DIR = path.resolve(__dirname, './build');
+const BUILD_DIR = path.resolve(__dirname, './public/build');
 const APP_DIR = path.resolve(__dirname, './client');
 
 module.exports = {
@@ -7,7 +7,7 @@ module.exports = {
   entry: APP_DIR + '/index.js',
   output: {
     filename: 'bundle.js',
-    publicPath: '/build/',
+    publicPath: '/public/build/',
     path: BUILD_DIR
   },
   module: {

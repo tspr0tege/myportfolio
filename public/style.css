@@ -20,3 +20,7 @@ pre {
   display: flex;
   gap: 1rem;
 }
+
+.portfolio-list i {
+  font-size: 2rem;
+}

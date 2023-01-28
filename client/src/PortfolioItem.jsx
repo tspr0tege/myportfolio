@@ -55,13 +55,16 @@ const LinksBox = ({ links }) => (
 )
 
 const TechList = ({ list }) => (
-  <ul>Tech Used:
-    {list.map((tech, index) => {
-      return (        
-        <li key={index}>
-          <i className={tech}></i>
-        </li>
-      );
-    })}
-  </ul>
+  <>
+    <p>Tech Used:</p>
+    <ul>
+      {list.map((tech, index) => {
+        return (        
+          <li key={index}>
+            <i className={tech}></i>
+          </li>
+        );
+      })}
+    </ul>
+  </>
 )
