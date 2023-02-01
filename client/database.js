@@ -148,7 +148,7 @@ export const projects = [
     highlight: 'I was rehired by this client and effective became the tech lead while I worked with them. They left me the following feedback:\n"This is my second job working with Squall and it has been yet another pleasure. He\'s been just a fantastic part of my team and has solved some complex issues in the project. Highly recommended and I\'ll be coming back soon!"'
   },
   {
-    title: 'Portfolio - Based on D&D 5e Character Sheet',
+    title: 'Portfolio 5e',
     type: 'Personal Project',
     status: 'Completed: 11/2022',
     links: [
