@@ -14,15 +14,19 @@ const linksBoxStyle = {
 export default ({ detailObject }) => {
 
   return (
-    <Paper elevation={3}>
-    <Box sx={{p: 2}}>
-      {!!detailObject?.title && <h3>{detailObject.title}</h3>}
+    <Paper sx={{height: '100%'}} elevation={3}>
+    <Box sx={{p: 2, display: 'flex', flexDirection: 'column', height: '100%'}}>
+      <div className="head-block" style={{justifySelf: 'flex-start'}}>
+        {!!detailObject?.title && <h3>{detailObject.title}</h3>}
 
-      {!!detailObject?.type && <p>{detailObject.type}</p>}
+        {!!detailObject?.type && <p>{detailObject.type}</p>}
 
-      {!!detailObject?.company && <p>{detailObject.company}</p>}
+        {!!detailObject?.company && <p>{detailObject.company}</p>}
 
-      {!!detailObject?.status && <p>{detailObject.status}</p>}
+        {!!detailObject?.status && <p>{detailObject.status}</p>}
+      </div>
+
+      <div className="picture-gallery" style={{flexGrow: 1}}></div>
 
       {(detailObject?.links?.length > 0) && <LinksBox links={detailObject.links} />}
 
