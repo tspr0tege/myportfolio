@@ -5,6 +5,7 @@ import { ThemeProvider, createTheme } from '@mui/material/styles';
 
 import Nav from './Nav';
 import Header from './Header/Index';
+import Projects from './Projects/Index';
 
 const darkTheme = createTheme({
   palette: {
@@ -21,7 +22,7 @@ export default () => {
       {/* <Nav /> */}
       <Header />
       {/* Header with nav, title, picture, subtitle text, and call-to-action button */}
-      {/* 3 projects highlight with picture and descriptions Catwalk, Quest Log, and Codewars*/}
+      <Projects />
       {/* About section with picture, title, 1-2 paragraph description and a cta button (to what?) */}
       {/* Social Proof: testimonials */}
       {/* Social Proof: education */}
