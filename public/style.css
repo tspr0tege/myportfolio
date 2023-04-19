@@ -1,6 +1,6 @@
 html {
   /* scroll-behavior: smooth; */
-  scroll-padding-top: 120px;
+  scroll-padding-top: 4rem;
 }
 
 * {
@@ -8,23 +8,10 @@ html {
   padding: 0;
 }
 
-pre {
-  font-family: inherit;
-  white-space: pre-wrap;
-  margin: 1rem 0;
+.main-container > * {
+  min-height: 400px;
 }
 
-/* Project List */
-.portfolio-list ul {
-  list-style: none;
-  display: flex;
-  gap: 1rem;
-}
-
-.portfolio-list i {
-  font-size: 2rem;
-}
-
-.mt1 {
-  margin-top: 1rem;
+.main-container > *:nth-child(even) {
+  background-color: #222;
 }
