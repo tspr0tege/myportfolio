@@ -1,3 +1,5 @@
+// Header with nav, title, picture, subtitle text, and call-to-action button
+
 import React from 'react';
 import { Box, Alert, AlertTitle } from '@mui/material';
 
